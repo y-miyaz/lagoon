@@ -15,7 +15,8 @@ import {
   transitions,
   VTextField,
   VSelect,
-  VCheckbox
+  VCheckbox,
+  VCombobox
 } from 'vuetify'
 import 'vuetify/src/stylus/app.styl'
 
@@ -35,7 +36,8 @@ Vue.use(Vuetify, {
     transitions,
     VTextField,
     VSelect,
-    VCheckbox
+    VCheckbox,
+    VCombobox
   },
   theme: {
     primary: '#ee44aa',
